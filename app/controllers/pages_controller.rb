@@ -13,4 +13,5 @@ class PagesController < ApplicationController
   def info  
     @title = "Info"
   end
+  
 end
