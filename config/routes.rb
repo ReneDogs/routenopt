@@ -9,6 +9,6 @@ Routenopt::Application.routes.draw do
   match '/about',   :to => 'pages#about'
   match '/info',    :to => 'pages#info'
   match '/home',    :to => 'pages#home'
-  
+  match '/blog',     :to => 'http://routenoptimierung.heroku.com/'
 end
 
